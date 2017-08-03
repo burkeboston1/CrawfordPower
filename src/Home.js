@@ -7,11 +7,14 @@ import bgImageHome from './images/DSC_3892.jpg';
 export default class Home extends Component {
     render() {
         return (
-            <div className="w3-row">
-        		<div className="w3-display-middle debug w3-center">
-        			<h2 className="w3-border-bottom">COMING SOON</h2>
-        			<h3>A New EP</h3>
+        	<div>
+        	<div id="home-bg-image" style={{backgroundImage: 'url(' + require('./images/DSC_3892.jpg') + ')'}}>meeeeee</div>
+            <div className="w3-row w3-display-container cp-white debug" style={{marginTop:'150px'}}>
+        		<div className="w3-display-topmiddle w3-center">
+        			<h1 className="cp-bottom-bar font-size-yuge font-arvo">COMING SOON</h1>
+        			<h2 className="font-size-bigly font-arvo">A New EP</h2>
         		</div>
+            </div>
             </div>
         );
     }
