@@ -1,0 +1,22 @@
+/* Style for Crawford and Power website */
+.debug {border: 2px solid #00ff00;}
+
+/* Colors */
+.cp-grey{background-color: grey; color:black;}
+
+/* Backgrounds */
+/*#region BACKGROUND */
+	.bg-image{
+		position:fixed;
+		margin: auto;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+	}
+
+
+/*#endregion */
+
+/* Spacing, Sizing */
