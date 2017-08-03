@@ -4,6 +4,10 @@ import { Link } from 'react-router-dom';
 
 /* Components */
 import logo from './images/cp_logo.png';
+import fbIconRound from './images/facebook_icon_round.png';
+import twitterIconRound from './images/twitter_icon_round.png';
+import instaIconRound from './images/insta_icon_round.png';
+import youtubeIconRound from './images/youtube_icon_round.png';
 
 export default class Header extends Component {
     render() {
@@ -12,7 +16,7 @@ export default class Header extends Component {
 
             <div className="w3-quarter w3-row w3-padding debug">
                 <div className="w3-col" style={{width:'85%'}}>
-                <a href="home.html"><img className="w3-image" src={require('./images/cp_logo.png')}/></a>
+                <a href="home.html"><img className="w3-image" src={logo}/></a>
                 </div>
             </div>
             
@@ -27,10 +31,10 @@ export default class Header extends Component {
             
             <div className="w3-rest icons w3-hide-small debug">
                 <div className="sm-icons w3-padding">
-                    <span><a href="https://www.facebook.com/crawfordandpower/" target="_blank"><img src={require('./images/facebook_icon_round.png')}/></a></span>
-                    <span><a href="https://twitter.com/crawfordnpower" target="_blank"><img src={require('./images/twitter_icon_round.png')}/></a></span>
-                    <span><a href="https://www.instagram.com/crawfordnpower/" target="_blank"><img src={require('./images/insta_icon_round.png')}/></a></span>
-                    <span><a href="https://www.youtube.com/channel/UCInvLw1gqXndKNfcb3sG_YA" target="_blank"><img src={require('./images/youtube_icon_round.png')}/></a></span>
+                    <span><a href="https://www.facebook.com/crawfordandpower/" target="_blank"><img src={fbIconRound}/></a></span>
+                    <span><a href="https://twitter.com/crawfordnpower" target="_blank"><img src={twitterIconRound}/></a></span>
+                    <span><a href="https://www.instagram.com/crawfordnpower/" target="_blank"><img src={instaIconRound}/></a></span>
+                    <span><a href="https://www.youtube.com/channel/UCInvLw1gqXndKNfcb3sG_YA" target="_blank"><img src={youtubeIconRound}/></a></span>
                 </div>
             </div>
 
