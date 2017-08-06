@@ -16,12 +16,16 @@ export default class Header extends Component {
 
             <div className="w3-quarter w3-row w3-padding debug">
                 <div className="w3-col" style={{width:'85%'}}>
-                <a href="home.html"><img className="w3-image" src={logo}/></a>
+                <a href="/home"><img className="w3-image" src={logo}/></a>
                 </div>
             </div>
             
             <div className="w3-half w3-mobile navbar debug">
                 <ul className="navbar">
+                    {/*<li><Link className="font-cabinsketch w3-mobile" to="/home">HOME</Link></li>
+                    <li><Link className="font-cabinsketch w3-mobile" to="/music">MUSIC</Link></li>
+                    <li><Link className="font-cabinsketch w3-mobile" to="/contact">CONTACT</Link></li>
+                    <li><Link className="font-cabinsketch w3-mobile" to="/about">ABOUT</Link></li>*/}
                     <li><a className="font-cabinsketch w3-mobile" href="/home">HOME</a></li>
                     <li><a className="font-cabinsketch w3-mobile" href="/music">MUSIC</a></li>
                     <li><a className="font-cabinsketch w3-mobile" href="/contact">CONTACT</a></li>
@@ -29,7 +33,7 @@ export default class Header extends Component {
                 </ul>
             </div>
             
-            <div className="w3-rest icons w3-hide-small debug">
+            <div className="w3-rest w3-hide-small debug w3-padding">
                 <div className="sm-icons w3-padding">
                     <span><a href="https://www.facebook.com/crawfordandpower/" target="_blank"><img src={fbIconRound}/></a></span>
                     <span><a href="https://twitter.com/crawfordnpower" target="_blank"><img src={twitterIconRound}/></a></span>
