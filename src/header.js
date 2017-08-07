@@ -1,6 +1,6 @@
 /* Packages */
 import React, { Component } from 'react';
-//import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 /* Components */
 import logo from './images/cp_logo.png';
@@ -16,20 +16,20 @@ export default class Header extends Component {
 
             <div className="w3-quarter w3-row w3-padding debug">
                 <div className="w3-col" style={{width:'85%'}}>
-                <a href="/home"><img alt="" className="w3-image" src={logo}/></a>
+                <Link to="/home"><img alt="" className="w3-image" src={logo}/></Link>
                 </div>
             </div>
             
             <div className="w3-half w3-mobile navbar debug">
                 <ul className="navbar">
-                    {/*<li><Link className="font-cabinsketch w3-mobile" to="/home">HOME</Link></li>
+                    <li><Link className="font-cabinsketch w3-mobile" to="/home">HOME</Link></li>
                     <li><Link className="font-cabinsketch w3-mobile" to="/music">MUSIC</Link></li>
                     <li><Link className="font-cabinsketch w3-mobile" to="/contact">CONTACT</Link></li>
-                    <li><Link className="font-cabinsketch w3-mobile" to="/about">ABOUT</Link></li>*/}
-                    <li><a className="font-cabinsketch w3-mobile" href="/home">HOME</a></li>
+                    <li><Link className="font-cabinsketch w3-mobile" to="/about">ABOUT</Link></li>
+                    {/*<li><a className="font-cabinsketch w3-mobile" href="/home">HOME</a></li>
                     <li><a className="font-cabinsketch w3-mobile" href="/music">MUSIC</a></li>
                     <li><a className="font-cabinsketch w3-mobile" href="/contact">CONTACT</a></li>
-                    <li><a className="font-cabinsketch w3-mobile" href="/about">ABOUT</a></li>
+                    <li><a className="font-cabinsketch w3-mobile" href="/about">ABOUT</a></li>*/}
                 </ul>
             </div>
             

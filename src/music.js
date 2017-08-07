@@ -6,9 +6,6 @@ import showDates from './data/show-dates.json';
 
 /* Render */
 export default class Music extends Component {
-    componentWillMount() {	
-    	console.log("Music is mounting...");
-    }
     render() {
         return (
             <div className="w3-row">
@@ -18,6 +15,7 @@ export default class Music extends Component {
                 <div className="w3-container w3-half font-arvo cp-white debug">
                     <h2 className="w3-center cp-white font-cabinsketch"><strong>Upcoming Dates</strong></h2>
                     <table className="w3-table" style={{fontSize:"1.8em", borderSpacing:"0px", marginTop: "40px"}}>
+                        <tbody>
                     {showDates.map(function(showDate) {
                         return(
                             <tr className="cp-border-bottom">
@@ -26,6 +24,7 @@ export default class Music extends Component {
                             </tr>
                         );
                     })}
+                        </tbody>
                     </table>
                 </div>
             </div>
