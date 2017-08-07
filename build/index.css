@@ -1,0 +1,58 @@
+/* Style for Crawford and Power website */
+/*.debug {border: 2px solid #00ff00;}*/
+
+/* Colors */
+.cp-grey{background-color: grey; color:black;}
+.cp-black{background-color: black; color: white;}
+.cp-white{color:white;}
+
+/* Fonts */
+.font-arvo{font-family: 'Arvo';}
+.font-cabinsketch{font-family: 'Cabin Sketch';}
+
+.font-size-yuge{font-size: 72px;}
+.font-size-bigly{font-size: 36px;}
+
+.font-style-italic{font-style: italic;}
+
+/* Spacing, Sizing */
+.padding{visibility: hidden;}
+
+/* Other Elements */
+.cp-bottom-bar{border-bottom:thick solid #660000;}
+.cp-border-bottom{border-bottom:3px solid #660000;}
+
+/* Ugly Header CSS */
+	.navbar{
+		list-style-type: none;
+		margin: 0;
+		padding: 12px;
+		overflow: hidden;
+		text-align: center;
+		font-size: 125%;
+	}
+	.navbar li{
+		display: inline;
+		text-align: center;
+		color:white;
+	}
+	.navbar a{
+		display: inline-block;
+		color: white;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	.navbar a:hover{
+		font-weight: bold;
+		color: #660000;
+	}
+
+	/* Social Media Links */
+	.sm-icons img{
+		width: 15%;
+		float: right;
+		filter: grayscale(100%);
+	}
+	.sm-icons img:hover{
+		filter:grayscale(0%);
+	}
