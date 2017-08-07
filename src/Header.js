@@ -1,6 +1,6 @@
 /* Packages */
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 
 /* Components */
 import logo from './images/cp_logo.png';
@@ -16,7 +16,7 @@ export default class Header extends Component {
 
             <div className="w3-quarter w3-row w3-padding debug">
                 <div className="w3-col" style={{width:'85%'}}>
-                <a href="/home"><img className="w3-image" src={logo}/></a>
+                <a href="/home"><img alt="" className="w3-image" src={logo}/></a>
                 </div>
             </div>
             
@@ -35,10 +35,10 @@ export default class Header extends Component {
             
             <div className="w3-rest w3-hide-small debug w3-padding">
                 <div className="sm-icons w3-padding">
-                    <span><a href="https://www.facebook.com/crawfordandpower/" target="_blank"><img src={fbIconRound}/></a></span>
-                    <span><a href="https://twitter.com/crawfordnpower" target="_blank"><img src={twitterIconRound}/></a></span>
-                    <span><a href="https://www.instagram.com/crawfordnpower/" target="_blank"><img src={instaIconRound}/></a></span>
-                    <span><a href="https://www.youtube.com/channel/UCInvLw1gqXndKNfcb3sG_YA" target="_blank"><img src={youtubeIconRound}/></a></span>
+                    <span><a href="https://www.facebook.com/crawfordandpower/" target="_blank" rel="noopener noreferrer"><img alt="" src={fbIconRound}/></a></span>
+                    <span><a href="https://twitter.com/crawfordnpower" target="_blank" rel="noopener noreferrer"><img alt="" src={twitterIconRound}/></a></span>
+                    <span><a href="https://www.instagram.com/crawfordnpower/" target="_blank" rel="noopener noreferrer"><img alt="" src={instaIconRound}/></a></span>
+                    <span><a href="https://www.youtube.com/channel/UCInvLw1gqXndKNfcb3sG_YA" target="_blank" rel="noopener noreferrer"><img alt="" src={youtubeIconRound}/></a></span>
                 </div>
             </div>
 

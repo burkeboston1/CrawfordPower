@@ -1,7 +1,7 @@
 /* Packages */
 import React, { Component } from 'react';
 
-import Background from './Background';
+import Background from './background';
 
 /* Render */
 export default class Contact extends Component {

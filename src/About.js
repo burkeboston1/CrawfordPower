@@ -1,7 +1,7 @@
 /* Packages */
 import React, { Component } from 'react';
 
-import Background from './Background';
+import Background from './background';
 
 /* Render */
 export default class About extends Component {
@@ -15,7 +15,7 @@ export default class About extends Component {
        				<h4 className="font-arvo">
        					This is a paragraph about us and stuff.
        				</h4>
-       				<img className="w3-image" src={require('./images/beamer.jpg')} />
+       				<img className="w3-image" alt="" src={require('./images/beamer.jpg')} />
        			</div>
             </div>
         );

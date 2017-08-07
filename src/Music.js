@@ -1,7 +1,7 @@
 /* Packages */
 import React, { Component } from 'react';
 
-import Background from './Background';
+import Background from './background';
 import showDates from './data/show-dates.json';
 
 /* Render */

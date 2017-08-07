@@ -2,8 +2,8 @@
 import React, { Component } from 'react';
 
 /* Componenets */
-import Header from './Header';
-import Routes from './Routes';
+import Header from './header';
+import Routes from './routes';
 
 /* Render */
 class App extends Component {

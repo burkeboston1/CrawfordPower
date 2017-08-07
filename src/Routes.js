@@ -3,11 +3,11 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 /* Components */
-import Home from './Home';
-import About from './About';
-import Music from './Music';
-import Contact from './Contact';
-import NotFound from './NotFound';
+import Home from './home';
+import About from './about';
+import Music from './music';
+import Contact from './contact';
+import NotFound from './not-found';
 
 /* Render */
 const Routes = () => (
