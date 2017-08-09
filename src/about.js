@@ -15,7 +15,6 @@ export default class About extends Component {
        				<h4 className="font-arvo">
        					This is a paragraph about us and stuff.
        				</h4>
-       				<img className="w3-image" alt="" src={require('./images/beamer.jpg')} />
        			</div>
             </div>
         );

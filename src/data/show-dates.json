@@ -1,14 +1,47 @@
 [
 	{
-		"date": "April 21",
-		"time": "7pm", 
-		"venue": "Dogtown Roadhouse",
-		"loc": "Floyd, VA"
+		"date": "August 11",
+		"venue": "Hammer & Forge Brewing Company",
+		"loc": "Boones Mill, VA"
 	},
 	{
-		"date": "April 28",
-		"time": "7pm", 
-		"venue": "Chaos Mountain Brewery",
+		"date": "August 25",
+		"venue": "Chaos Mountain Brewing",
+		"loc": "Callaway, VA"
+	},
+	{
+		"date": "September 1",
+		"venue": "First Fridays at Five",
+		"loc": "Roanoke, VA"
+	},
+	{
+		"date": "September 8",
+		"venue": "Historic Morganton Festival w/ The Swon Brothers",
+		"loc": "Morganton, NC"
+	},
+	{
+		"date": "September 22",
+		"venue": "Ballad Brewing",
+		"loc": "Danville, VA"
+	},
+	{
+		"date": "October 20",
+		"venue": "Roanoke Rapids Theatre w/ Montgomery Gentry",
+		"loc": "Roanoke Rapids, NC"
+	},
+	{
+		"date": "October 27",
+		"venue": "Squeek's Chances R Bar and Grill",
+		"loc": "Pinkerton, OH"
+	},
+	{
+		"date": "October 28",
+		"venue": "Riverbend Pub & Grill",
+		"loc": "Vanceburg, KY"
+	},
+	{
+		"date": "November 11",
+		"venue": "Chaos Mountain Brewing",
 		"loc": "Callaway, VA"
 	}
 ]
