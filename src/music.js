@@ -15,7 +15,7 @@ export default class Music extends Component {
                 <div className="w3-container w3-half font-arvo cp-white">
                     <h2 className="w3-center cp-white font-cabinsketch"><strong>Upcoming Dates</strong></h2>
                     <table className="w3-table w3-animate-bottom" style={{fontSize:"1.8em", borderSpacing:"0px", marginTop: "40px"}}>
-                        <tbody>
+                        <tbody> 
                     {showDates.map(function(showDate) {
                         return(
                             <tr className="cp-border-bottom">

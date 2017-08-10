@@ -9,7 +9,7 @@ import twitterIconRound from './images/twitter_icon_round.png';
 import instaIconRound from './images/insta_icon_round.png';
 import youtubeIconRound from './images/youtube_icon_round.png';
 
-export default class Header extends Component {
+export default class Header extends Component { 
     render() {
         return (
             <div className="w3-row">

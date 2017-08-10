@@ -12,7 +12,7 @@ export default class About extends Component {
                 <div className="w3-container w3-quarter padding">:)</div>
        			<div className="w3-container w3-half w3-margin cp-white">
        				<h2 className="font-cabinsketch w3-center"><strong>Crawford and Power</strong></h2>
-       				<h4 className="font-arvo">
+       				<h4 className="font-arvo"> 
        					This is a paragraph about us and stuff.
        				</h4>
        			</div>

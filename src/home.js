@@ -7,7 +7,7 @@ import Background from './background';
 export default class Home extends Component {
 
     render() {
-        return (
+        return ( 
         	<div>
             <Background bgImage={require('./images/DSC_3892.jpg')} brightness={"80"}/>
             <div className="w3-row w3-display-container cp-white" style={{height: "50vh"}}>
