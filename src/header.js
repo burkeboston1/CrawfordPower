@@ -23,7 +23,7 @@ export default class Header extends Component {
             <div className="w3-half w3-mobile navbar">
                 <ul className="navbar">
                     <li><Link className="font-cabinsketch" to="/home">HOME</Link></li>
-                    <li><Link className="font-cabinsketch" to="/music">MUSIC</Link></li>
+                    <li><Link className="font-cabinsketch" to="/shows">SHOWS</Link></li>
                     <li><Link className="font-cabinsketch" to="/contact">CONTACT</Link></li>
                     <li><Link className="font-cabinsketch" to="/about">ABOUT</Link></li>
                     {/*<li><a className="font-cabinsketch w3-mobile" href="/home">HOME</a></li>
@@ -37,7 +37,7 @@ export default class Header extends Component {
                 <div className="sm-icons w3-padding">
                     <span><a href="https://www.facebook.com/crawfordandpower/" target="_blank" rel="noopener noreferrer"><img alt="" src={fbIconRound}/></a></span>
                     <span><a href="https://twitter.com/crawfordnpower" target="_blank" rel="noopener noreferrer"><img alt="" src={twitterIconRound}/></a></span>
-                    <span><a href="https://www.instagram.com/crawfordnpower/" target="_blank" rel="noopener noreferrer"><img alt="" src={instaIconRound}/></a></span>
+                    <span><a href="https://www.instagram.com/crawfordandpower/" target="_blank" rel="noopener noreferrer"><img alt="" src={instaIconRound}/></a></span>
                     <span><a href="https://www.youtube.com/channel/UCInvLw1gqXndKNfcb3sG_YA" target="_blank" rel="noopener noreferrer"><img alt="" src={youtubeIconRound}/></a></span>
                 </div>
             </div>
